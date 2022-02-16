@@ -1,9 +1,9 @@
 import static org.junit.Assert.*;
 import org.junit.*;
-<<<<<<< HEAD
-=======
 
->>>>>>> f8fac8c14a43b94e8b6602fb2f45982b19aa5844
+
+
+
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,10 +25,10 @@ public class MarkdownParseTest {
         fileMap.put("test-file1.md", new ArrayList<String>(Arrays.asList("https://something.com", "some-page.html")));
         fileMap.put("test-file2.md", new ArrayList<String>(Arrays.asList()));
         fileMap.put("test-file3.md", new ArrayList<String>(Arrays.asList()));
-<<<<<<< HEAD
-=======
+
+
         fileMap.put("test-file4.md", new ArrayList<String>(Arrays.asList()));
->>>>>>> f8fac8c14a43b94e8b6602fb2f45982b19aa5844
+
     }
 
     @Test
@@ -46,12 +46,12 @@ public class MarkdownParseTest {
         assertEquals(fileMap.get("test-file3.md"), MarkdownParse.getLinks(Files.readString(Path.of("test-file3.md"))));
     }
 
-<<<<<<< HEAD
 
-=======
+
+
     @Test
     public void testFile4() throws Exception {
         assertEquals(fileMap.get("test-file4.md"), MarkdownParse.getLinks(Files.readString(Path.of("test-file4.md"))));
     }
->>>>>>> f8fac8c14a43b94e8b6602fb2f45982b19aa5844
+
 }
