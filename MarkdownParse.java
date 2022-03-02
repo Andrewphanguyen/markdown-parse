@@ -33,7 +33,10 @@ public class MarkdownParse {
         Map<String, List<String>> result = new HashMap<>();
         if(dirOrFile.isDirectory()) {
             for(File f: dirOrFile.listFiles()) {
+                int counter = 0;
+                system.out.println(counter);
                 result.putAll(getLinks(f));
+                counter++;
             }
             return result;
         }
