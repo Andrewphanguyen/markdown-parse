@@ -1,1 +1,1 @@
-<p>foo<em>bar</em></p>
+<p>** is not an empty emphasis</p>
