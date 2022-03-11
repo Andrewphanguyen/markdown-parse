@@ -1,1 +1,1 @@
-<p>** is not an empty emphasis</p>
+<p>[link](/my uri)</p>
