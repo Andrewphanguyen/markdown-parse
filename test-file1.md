@@ -1,1 +1,1 @@
-<p>[foo <em>[bar <a href="/uri">baz</a>](/uri)</em>](/uri)</p>
+<p>[foo <bar attr="](baz)"></p>
