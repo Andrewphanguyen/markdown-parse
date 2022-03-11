@@ -22,7 +22,7 @@ public class MarkdownParseTest {
     @Before
     public void setupMap() {
         fileMap = new HashMap<>();
-        fileMap.put("test-file1.md", new ArrayList<String>(Arrays.asList("3", "some-page.html")));
+        fileMap.put("test-file1.md", new ArrayList<String>(Arrays.asList("4", "some-page.html")));
         fileMap.put("test-file2.md", new ArrayList<String>(Arrays.asList()));
         fileMap.put("test-file3.md", new ArrayList<String>(Arrays.asList()));
 
