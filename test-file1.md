@@ -1,3 +1,4 @@
-<pre><code>aaa
-~~~
-</code></pre>
+<div></div>
+``` c
+int x = 33;
+```
